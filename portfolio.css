@@ -1,0 +1,257 @@
+h1, h2, h3, h4, h5, h6, p, ul, span {
+
+	font-family: Hiragino Sans, Helvetica Neue, Helvetica, Arial, Sans Serif;
+
+}
+
+h1 {
+	margin-bottom: 45px;
+	opacity: 0;
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+       -moz-animation: fadein 2s; /* Firefox */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera */
+            animation: fadein 2s;
+	animation-delay:1s;
+	-webkit-animation-delay:1s;
+	   -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/
+   -moz-animation-fill-mode:forwards; /*FF 5+*/
+   -o-animation-fill-mode:forwards; /*Not implemented yet*/
+   -ms-animation-fill-mode:forwards; /*IE 10+*/
+   animation-fill-mode:forwards; /*when the spec is finished*/
+
+}
+h2 {
+	margin-bottom: 15px;
+	color: #50E3C2;
+	font-size: 1.1em;
+	font-weight: 600;
+}
+
+span {
+	color: #FFF;
+	font-size: 0.8em;
+	font-weight: 200;
+}
+
+em {
+	font-style: normal;
+	color: #FFF;
+	font-size: 0.8em;
+	font-weight: 100;
+}
+
+body {
+	margin: 0 0;
+}
+
+h1 {
+	font-size: 40px;
+	font-weight: 100;
+	text-align: center;
+		margin-bottom: 75px;
+opacity: 0;
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+       -moz-animation: fadein 1s; /* Firefox */
+        -ms-animation: fadein 1s; /* Internet Explorer */
+         -o-animation: fadein 1s; /* Opera */
+            animation: fadein 1s;
+	animation-delay:0.1s;
+	-webkit-animation-delay:0.1s;
+	   -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/
+   -moz-animation-fill-mode:forwards; /*FF 5+*/
+   -o-animation-fill-mode:forwards; /*Not implemented yet*/
+   -ms-animation-fill-mode:forwards; /*IE 10+*/
+   animation-fill-mode:forwards; /*when the spec is finished*/
+}
+
+p {
+	line-height: 1.75;
+	font-weight: 300;
+	-webkit-font-smoothing: subpixel-antialiased;
+
+}
+
+article {
+	color: #273385;
+	margin-top: 110px;
+}
+#brief-bio {
+ padding: 30px 0;
+	
+}
+
+.inner-container {
+
+	width: 60%;
+	max-width: 600px;
+	margin: auto auto;
+	padding: 0 0;
+}
+
+ul {
+	list-style: none;
+	display: inline;
+	width: 100%;
+	padding-left: 0;
+    margin: auto auto;
+}
+
+li {
+	display: inline-block;
+	font-weight: 600;
+	color: #50E3C2;
+	font-size: 1em;
+}
+
+a {
+	color: rgba(80, 227, 194, 0.4);
+	transition: color 0.5s;
+}
+
+section {
+	
+}
+
+#brief-bio {
+	border-bottom: solid 7px #50E3C2;
+}
+
+footer {
+	height: 50px;
+	color: #50E3C2;
+	margin: auto auto;
+}
+
+#footer-text {
+	text-align: center;
+	font-size: 0.9em;
+	font-weight: 600;
+	margin-top: 25px;
+}
+
+#skills {
+	background-color: #505A9C;
+	border-bottom: solid 7px #50E3C2;
+
+}
+
+.skill-breakdown {
+	padding: 25px 0px;
+	border-bottom: solid 2px rgba(0,0,0, 0.1);
+	display: flex;
+		opacity: 0;
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+       -moz-animation: fadein 1s; /* Firefox */
+        -ms-animation: fadein 1s; /* Internet Explorer */
+         -o-animation: fadein 1s; /* Opera */
+            animation: fadein 1s;
+	animation-delay:1s;
+	-webkit-animation-delay:1s;
+	   -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/
+   -moz-animation-fill-mode:forwards; /*FF 5+*/
+   -o-animation-fill-mode:forwards; /*Not implemented yet*/
+   -ms-animation-fill-mode:forwards; /*IE 10+*/
+   animation-fill-mode:forwards; /*when the spec is finished*/
+}
+
+.skill-description {
+	max-width: 250px;
+		opacity: 0;
+				opacity: 0;
+    -webkit-animation: fadein 0.7s; /* Safari and Chrome */
+       -moz-animation: fadein 0.7s; /* Firefox */
+        -ms-animation: fadein 0.7s; /* Internet Explorer */
+         -o-animation: fadein 0.7s; /* Opera */
+            animation: fadein 0.7s;
+	animation-delay:0.3s;
+	-webkit-animation-delay:0.3s;
+	   -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/
+   -moz-animation-fill-mode:forwards; /*FF 5+*/
+   -o-animation-fill-mode:forwards; /*Not implemented yet*/
+   -ms-animation-fill-mode:forwards; /*IE 10+*/
+   animation-fill-mode:forwards; /*when the spec is finished*/
+}
+
+.skill-detail {
+	display: inline;
+	margin: auto auto;
+}
+
+.skill-list {
+    display: block;
+    padding-top: 35px;
+    width: 250px;
+    padding-left: 60px;
+}
+.skill-list > li {
+	font-weight: 500;
+	font-size: 0.9em;
+	color: #FFF;
+	display: block;
+	padding-top: 15px;
+	padding-bottom: 5px;
+
+}
+
+#name {
+	font-weight: 300; 
+	color: #273385;
+			opacity: 0;
+    -webkit-animation: fadein 0.1s; /* Safari and Chrome */
+       -moz-animation: fadein 0.1s; /* Firefox */
+        -ms-animation: fadein 0.1s; /* Internet Explorer */
+         -o-animation: fadein 0.1s; /* Opera */
+            animation: fadein 0.1s;
+	animation-delay:0.1s;
+	-webkit-animation-delay:0.1s;
+	   -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/
+   -moz-animation-fill-mode:forwards; /*FF 5+*/
+   -o-animation-fill-mode:forwards; /*Not implemented yet*/
+   -ms-animation-fill-mode:forwards; /*IE 10+*/
+   animation-fill-mode:forwards; /*when the spec is finished*/
+}
+
+#email {
+	color: ;
+	float: right; text-decoration: underline; font-weight: 500
+			opacity: 0;
+    -webkit-animation: fadein 0.1s; /* Safari and Chrome */
+       -moz-animation: fadein 0.1s; /* Firefox */
+        -ms-animation: fadein 0.1s; /* Internet Explorer */
+         -o-animation: fadein 0.1s; /* Opera */
+            animation: fadein 0.1s;
+	animation-delay:0.1s;
+	-webkit-animation-delay:0.1s;
+	   -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/
+   -moz-animation-fill-mode:forwards; /*FF 5+*/
+   -o-animation-fill-mode:forwards; /*Not implemented yet*/
+   -ms-animation-fill-mode:forwards; /*IE 10+*/
+   animation-fill-mode:forwards; /*when the spec is finished*/
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari and Chrome */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+h2, p, span, em, ul {
+	opacity: 0;
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+       -moz-animation: fadein 1s; /* Firefox */
+        -ms-animation: fadein 1s; /* Internet Explorer */
+         -o-animation: fadein 1s; /* Opera */
+            animation: fadein 1s;
+	animation-delay:0.5s;
+	-webkit-animation-delay:0.5s;
+	   -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/
+   -moz-animation-fill-mode:forwards; /*FF 5+*/
+   -o-animation-fill-mode:forwards; /*Not implemented yet*/
+   -ms-animation-fill-mode:forwards; /*IE 10+*/
+   animation-fill-mode:forwards; /*when the spec is finished*/
+}
