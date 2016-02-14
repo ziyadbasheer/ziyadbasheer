@@ -77,7 +77,7 @@ article {
 	margin-top: 110px;
 }
 #brief-bio {
- padding: 30px 0;
+ padding: 30px 0 100px 0px;;
 	
 }
 
@@ -133,6 +133,7 @@ footer {
 #skills {
 	background-color: #505A9C;
 	border-bottom: solid 7px #50E3C2;
+	padding: 60px 0px;
 
 }
 
